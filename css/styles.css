@@ -1,0 +1,150 @@
+#title{ 
+    background-color: #dc3545;
+    color:#fff;
+    padding-bottom: 100px;
+    
+}
+
+h1 { 
+    
+    line-height: 1.5;
+    font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+.download_button{      
+    /*to keep the download buttons in the centre of the container */ 
+       text-align: center;
+       margin-top: 5%;
+       margin-bottom:5%;
+}
+
+
+.title-image {
+    text-align:center;
+    width: 40%;
+    transform: rotate(20deg);
+    margin-left:30%;
+    position: absolute;
+    margin-bottom:2%;
+    right:30%;
+}
+
+.container-fluid{ 
+    padding: 1% 3% ;
+}
+.navbar{
+    padding-bottom:2.5rem;
+}
+.navbar-brand{ 
+
+    font-family: 'Indie Flower', cursive;
+    font-size:2.5rem;
+
+}
+.nav-item{ 
+    padding: 0 10px;
+}
+.nav-link{ 
+    font-family: 'Indie Flower', cursive;
+}
+.feature-box{ 
+    text-align:center;
+    padding:6%;
+    font-family: 'Indie Flower', cursive;
+    color:black;
+    transition: color 0.2s ease-out;
+}
+.feature-box:hover{ 
+    color: grey ;
+}
+#features{ 
+    background-color: white;
+    padding:7% 15%;
+    z-index: 1;
+    position: relative;
+}
+h3{ 
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+}
+.fa-4x{ 
+    padding-bottom:2%;
+    color: #ef8172;
+    transition: color 0.2s ease-in-out;
+}
+.fa-4x:hover{ 
+    color:#dc3545;
+}
+/*  testimonial section */
+#testimonials{ 
+
+ text-align: center;
+ background-color:  #ef8172;
+color:#fff;
+}
+h2{ 
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+
+}
+.dog-image{ 
+    width:15%;
+    border-radius: 100%;
+    ;
+}
+#press{ 
+    background-color: #ef8172;
+    text-align:center;
+    padding-bottom:3%;
+}
+.press-logo{ 
+    width:12%;
+    margin:1% 6% 2%;
+}
+.carousel-item{ 
+    padding: 7% 15%;
+}
+#pricing{ 
+    padding: 7% 15%;
+    text-align:center;
+
+}
+.card{ 
+    color:black;
+    transition: color 0.3s ease-in-out;
+}
+.card:hover{ 
+    color: green;
+}
+#cta{ 
+    background-color:#dc3545;
+    padding: 7% 15%;
+    color:  white;
+    text-align: center;
+    margin: 5% 0 5% ;
+    line-height: 1rem;
+}
+
+#footer{ 
+    text-align:center;
+    padding: 10% 20%;
+}
+
+.btm-ico{ 
+    padding: 1% 2%;
+    color:  black;
+    transition: color .2s ease-in-out;
+}
+.btm-ico:hover{ 
+    color: #ef8172;
+}
+
+
+@media (max-width:1028px) {
+    .title-image{ 
+        text-align:center;
+        transform: rotate(0);
+        position: static;
+    }
+    } 
